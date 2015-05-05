@@ -74,6 +74,7 @@
         }
       })
       $("#play").on("click",function () {
+        alert(2);
         tooglePlay();
         
       })
@@ -158,6 +159,7 @@
      
       var apiKey = 'AIzaSyAucyHu26je9-g2tW-7F-sQdfKX55xtl8c';
       function buscarVideos(PageToken) {
+        alert(3);
         if(!PageToken){
           PageToken = '';
           $('#info').html("");
