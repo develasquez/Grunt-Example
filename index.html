@@ -18,7 +18,7 @@
 
     <script src="js/vendor/monomer.js" type="text/javascript"></script>
       
-    <script src="https://apis.google.comjs/client.js"></script>
+    <script src="https://apis.google.com/js/client.js"></script>
     <style>
     .footer{
       padding: 0;
@@ -74,7 +74,7 @@
         }
       })
       $("#play").on("click",function () {
-        alert(2);
+        
         tooglePlay();
         
       })
@@ -159,7 +159,7 @@
      
       var apiKey = 'AIzaSyAucyHu26je9-g2tW-7F-sQdfKX55xtl8c';
       function buscarVideos(PageToken) {
-        alert(3);
+        
         if(!PageToken){
           PageToken = '';
           $('#info').html("");
@@ -213,7 +213,7 @@
             if($('#info li').length < 20){
                 buscarVideos(nextPageToken);
               }else{
-                monomer.
+                
               }
             });
         });
@@ -335,7 +335,7 @@
          <div id="" class=" aspect_Full">
           <img src="" alt="" class="aspect_16_9" id="caratula">
             <audio controls id="player" class="hidden">
-              <source src="horse.mp3" type="audio/mpeg">
+              
             </audio>
          </div>
 
@@ -343,4 +343,4 @@
     </div>
   </body>
 </html>
-<script src="cordoba.js" type="text/javascript"></script>
+<script src="cordova.js" type="text/javascript"></script>
